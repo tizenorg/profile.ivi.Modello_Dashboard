@@ -1,3 +1,6 @@
+* Tue May 06 2014 brianjjones <brian.j.jones@intel.com> accepted/tizen/ivi/20140409.182209@83dc2fb
+- Updated to work with Crosswalk.  TIVI-3072
+
 * Thu Apr 03 2014 brianjjones <brian.j.jones@intel.com> cc46ff5
 - Initial commit of the Modello Dashboard app
 
