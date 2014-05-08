@@ -14,7 +14,7 @@
     <tizen:privilege name="http://tizen.org/privilege/bluetooth.spp" />
     <tizen:privilege name="http://tizen.org/privilege/bluetooth.gap" />
 	<icon src="icon.png"/>
-	<name>Dashboard</name>
+	<name>Modello Dashboard</name>
     <tizen:setting screen-orientation="portrait"/>
 
 </widget>
