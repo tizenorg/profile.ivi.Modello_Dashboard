@@ -1,3 +1,6 @@
+* Wed Aug 06 2014 Brian Jones <brian.j.jones@intel.com> accepted/tizen/ivi/20140526.130948-1-g3c2b00a
+- Updating manifest to use xwalk_version instead of version - TC-1465
+
 * Thu May 22 2014 brianjjones <brian.j.jones@intel.com> submit/tizen_ivi/20140508.232502@b29a4bd
 - Fixes for IVI-3190 - To get things to render normally
 
