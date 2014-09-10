@@ -1,3 +1,6 @@
+* Wed Sep 10 2014 Brian Jones <brian.j.jones@intel.com> submit/tizen_ivi/20140819.215800-1-g73c1cf7
+- Removing space in app name - Fix for TC-1404
+
 * Tue Aug 19 2014 Brian Jones <brian.j.jones@intel.com> accepted/tizen/ivi/20140807.053859-1-g315b0c2
 - Matching config.xml icon name to the one in the .wgt file
 
