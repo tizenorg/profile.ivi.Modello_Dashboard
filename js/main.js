@@ -97,6 +97,14 @@ var init = function () {
         $('#bottomPanel').bottomPanel('init', 'withoutBack');
         $("#topBarIcons").topBarIconsPlugin('init');
 
+	tizen.vehicle.vehicleSpeed.get().then(
+		function(vSpeed){
+			dashBoardIndicator.onSpeedChanged(vSpeed.speed);
+		},
+        	function(){
+			console.log("Modello Dashboard failed to get Vehicle Speed");
+		});
+
         bootstrap.carIndicator.addListener({
             /* this si for steeringWheel game controler */
             onSteeringWheelAngleChanged : function(newValue){
