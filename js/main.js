@@ -1,7 +1,7 @@
 /*global Bootstrap, dashBoardControler */
 
 /**
- * DashBoard application show information about vehicle from [tizen.vehicle API](https://raw.github.com/otcshare/automotive-message-broker/master/docs/amb.idl).
+ * DashBoard application show information about vehicle from [navigator.vehicle API](https://raw.github.com/otcshare/automotive-message-broker/master/docs/amb.idl).
  * Uses mainly {{#crossLink "CarIndicator"}}{{/crossLink}} module from {{#crossLink "Bootstrap/carIndicator:property"}}{{/crossLink}}. Dashboard application uses following
  * AMB properties to show car data in display only mode:
  *
@@ -97,7 +97,7 @@ var init = function () {
         $('#bottomPanel').bottomPanel('init', 'withoutBack');
         $("#topBarIcons").topBarIconsPlugin('init');
 
-	tizen.vehicle.vehicleSpeed.get().then(
+	navigator.vehicle.vehicleSpeed.get().then(
 		function(vSpeed){
 			dashBoardIndicator.onSpeedChanged(vSpeed.speed);
 		},
