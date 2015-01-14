@@ -1,3 +1,6 @@
+* Wed Jan 14 2015 Brian Jones <brian.j.jones@intel.com> accepted/tizen/ivi/20141202.054057-1-g2c4441a
+- Fix for TC-2353 - convert to MPH properly
+
 * Mon Dec 01 2014 Brian Jones <brian.j.jones@intel.com> accepted/tizen/ivi/20141121.050646-1-g0584f9b
 - Changed to use the navigator.vehicle namespace - TC-2055
 

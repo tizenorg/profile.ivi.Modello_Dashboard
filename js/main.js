@@ -99,7 +99,7 @@ var init = function () {
 
 	navigator.vehicle.vehicleSpeed.get().then(
 		function(vSpeed){
-			dashBoardIndicator.onSpeedChanged(vSpeed.speed);
+			dashBoardIndicator.onSpeedChanged(Math.round(vSpeed.speed * 0.621371));
 		},
         	function(){
 			console.log("Modello Dashboard failed to get Vehicle Speed");
